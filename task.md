@@ -1,21 +1,59 @@
-Instructions:
+# ADT-lesson
+ADT lesson assignment - ICS4UR
 
-1. Complete the ADT Kahoot (kahoot.md file)
+<hr><br>
+
+## Tips
+  1. Comment your code
+  2. Seperate parts of assignment to keep it organized
+
+## ADT Operations
+These are the operations you will need to understand and utilise to complete this assignment
+| Operation       | Stack (LIFO)        | Queue (FIFO)        | Linked List               |
+|-----------------|--------------------|--------------------|--------------------------|
+| **Add**         | `push()` (top)     | `enqueue()` (rear) | `prepend(), append()`|
+| **Remove**      | `pop()` (top)      | `dequeue()` (front)| `popFirst(), pop(), remove()` |
+| **Examine**     | `peek()` (top)     | `front()`          | `head(), tail()`    |
+| **Check Empty** | `isEmpty()`        | `isEmpty()`        | `isEmpty()`               |
+| **Size**        | `size()`           | `size()`           | `size()`                  |
+| **Clear**       | `clear()`          | `clear()`          | `clear()`                 |
+
+Remember, these are only concepts of each of the methods, you must write the code to implement these concepts! In this assignment, you will use classes (user defined types) to implement the ADTs
+
+
+## Instructions
+1. Complete the ADT Google form (quiz.md file)
+1. Create a Stack class with the following methods:
+
+    - push(item) – adds an item to the top
+
+    - pop() – removes the top item
+
+    - peek() – returns the top item without removing it
+
+2. Test your stack by:
+
+    - Pushing 2 items
+
+    - Popping one
+
+    - Printing the item on top with peek()
+      
+3. Using the Stack() class, create a Queue() class with the following methods:
    
-2. Complete the Assignment (assignment.js file)
-   
-    2a. Create a Stack class with the following methods:
+    - enqueue() - adds an item to the end
+  
+    - dequeue() - removes item from the front
+  
+    - front() - returns the item from the front
+  
+4. Test your queue by:
 
-        - push(item) – adds an item to the top
+    - enqueuing 2 items
 
-        - pop() – removes the top item
+    - dequeuing one
 
-        - peek() – returns the top item without removing it
+    - Printing the item in front with front()
 
-    2b. Test your stack by:
-
-        - Pushing 2 items
-
-        - Popping one
-
-        - Printing the item on top with peek()
+## Stretch Goal
+If you want an extra challenge, implement the common ADT methods, isEmpty(), size(), and clear() to both the Stack and Queue Class
