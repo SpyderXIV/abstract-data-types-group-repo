@@ -23,6 +23,9 @@ Remember, these are only concepts of each of the methods, you must write the cod
 
 ## Instructions
 1. Complete the ADT Google form (googleForm.md file)
+   
+Your job is to set up the methods for each ADT, making sure each method follows the behavior described in [ADT Operations](#adt-operations). Don't forget to pass a parameter when calling methods that need them to provide an accurate result! Use [this page](https://www.w3schools.com/js/js_array_methods.asp) explaining all Javascript Array methods if you are unfamiliar with how to manipulate data in a JS Array.
+
 2. Create a Stack class with the following methods:
 
     - push(item) – adds an item to the top
