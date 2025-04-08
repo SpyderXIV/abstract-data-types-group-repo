@@ -1,17 +1,20 @@
 Instructions:
 
-1. Create a Stack class with the following methods:
+1. Complete the ADT Kahoot (kahoot.md file)
+   
+2. Complete the Assignment (assignment.js file)
+    2a. Create a Stack class with the following methods:
 
-    - push(item) – adds an item to the top
+        - push(item) – adds an item to the top
 
-    - pop() – removes the top item
+        - pop() – removes the top item
 
-    - peek() – returns the top item without removing it
+        - peek() – returns the top item without removing it
 
-2. Test your stack by:
+    2b. Test your stack by:
 
-    - Pushing 2 items
+        - Pushing 2 items
 
-    - Popping one
+        - Popping one
 
-    - Printing the item on top with peek()
+        - Printing the item on top with peek()
