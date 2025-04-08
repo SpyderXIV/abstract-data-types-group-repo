@@ -22,8 +22,8 @@ Remember, these are only concepts of each of the methods, you must write the cod
 
 
 ## Instructions
-1. Complete the ADT Google form (quiz.md file)
-1. Create a Stack class with the following methods:
+1. Complete the ADT Google form (googleForm.md file)
+2. Create a Stack class with the following methods:
 
     - push(item) – adds an item to the top
 
@@ -31,7 +31,7 @@ Remember, these are only concepts of each of the methods, you must write the cod
 
     - peek() – returns the top item without removing it
 
-2. Test your stack by:
+3. Test your stack by:
 
     - Pushing 2 items
 
@@ -39,7 +39,7 @@ Remember, these are only concepts of each of the methods, you must write the cod
 
     - Printing the item on top with peek()
       
-3. Using the Stack() class, create a Queue() class with the following methods:
+4. Using the Stack() class, create a Queue() class with the following methods:
    
     - enqueue() - adds an item to the end
   
@@ -47,7 +47,7 @@ Remember, these are only concepts of each of the methods, you must write the cod
   
     - front() - returns the item from the front
   
-4. Test your queue by:
+5. Test your queue by:
 
     - enqueuing 2 items
 
