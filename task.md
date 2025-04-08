@@ -3,6 +3,7 @@ Instructions:
 1. Complete the ADT Kahoot (kahoot.md file)
    
 2. Complete the Assignment (assignment.js file)
+   
     2a. Create a Stack class with the following methods:
 
         - push(item) – adds an item to the top
